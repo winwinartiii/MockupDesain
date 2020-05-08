@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="332dp"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/dokter"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:text="DENTIST"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NAMA DOKTER"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NAMA DOKTER"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="553dp" />
+</android.support.constraint.ConstraintLayout>
